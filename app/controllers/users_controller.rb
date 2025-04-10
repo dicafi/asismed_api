@@ -1,3 +1,7 @@
+#! See if this is needed or not (you are using GraphQL)
+# frozen_string_literal: true
+
+# UsersController
 class UsersController < ApplicationController
   before_action :set_user, only: %i[ show update destroy ]
 
